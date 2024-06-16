@@ -1,0 +1,82 @@
+.app-breadcrumb {
+    margin-bottom: 0;
+    text-align: right;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 0;
+    text-align: left;
+    padding: 0;
+    background-color: transparent;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "/";
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 33%;
+}
+
+.control-label {
+    font-weight: 600;
+    color: black;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+    height: 45px;
+    border: 1px solid #dadada;
+    border-radius: .357rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s 
+}
+
+.btn-save {
+    background-color: rgb(166 236 171);
+    color: rgb(1 123 10);
+    /* width: 100px; */
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-cancel {
+    background-color: rgb(255 197 197);
+    color: rgb(190, 40, 40);
+    /* width: 100px; */
+    font-weight: 600;
+    letter-spacing: 1px;
+}

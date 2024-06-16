@@ -1,0 +1,48 @@
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: left;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: .357rem;
+    border: 1px 
+    solid #ddd;
+}
+
+.dataTables_filter > label {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.dataTables_length > label {
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+    background-color: #f1f1f1;
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+.dataTables_filter input:focus {
+    outline: none;
+    border: 1px solid black;
+}

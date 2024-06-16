@@ -1,0 +1,107 @@
+.element-button {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    cursor: pointer;
+  }
+  
+  
+  .btn[disabled] {
+    cursor: not-allowed;
+  }
+  
+  .btn .icon,
+  .btn .fa {
+    font-size: 14px;
+  
+    vertical-align: middle;
+  }
+
+  .btn:hover, .btn:focus {
+    text-decoration: none;
+}
+
+.btn-add {
+    background: #9df99d !important;
+    color: #003c00 !important;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 10px;
+    border-radius: .357rem;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+
+
+.btn-primary {
+    color: rgb(245 157 57);
+    background-color: rgb(251 226 197);
+    border-color: none;
+    /* border-top-left-radius: 10px !important; */
+    /* border-bottom-right-radius: 10px !important; */
+    border-radius: .357rem;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-delete {
+    background: #d0d0d0;
+    color: #f99a9a;
+}
+
+.print-file {
+    background: #bfbeef !important;
+    color: #03009a !important;
+}
+
+.nhap-tu-file {
+    background: #e1ec86 !important;
+    color: #4b5400 !important;
+}
+
+.btn-excel {
+    color: #008c04 !important;
+    background: #a2ecb5 !important;
+}
+
+.pdf-file {
+    background: #efcaca !important;
+    color: #bf0000 !important;
+}
+
+.btn-delete {
+    background: #d0d0d0;
+    color: #f99a9a;
+}
+
+.trash {
+    background: #f7c3c2;
+    border: none;
+    color: #de0400;
+    font-size: 20px;
+}
+
+.img-card-person {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: .357rem;
+    object-fit: cover;
+}
+

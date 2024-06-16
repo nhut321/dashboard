@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css'
+import Login from './Pages/Login'
+import Dashboard from './Pages/Dashboard';
+import Wrapper from './components/Wrapper';
+import MainContextProvider, { MainContext } from './Context/MainContext';
 
 function App() {
+  const mainContext = useContext(MainContext)
+  console.log(mainContext)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainContextProvider>
+        <BrowserRouter>
+
+          <Wrapper />
+        </BrowserRouter>
+
+      {/* <Login /> */}
+      </MainContextProvider>
+    </>
   );
 }
 
